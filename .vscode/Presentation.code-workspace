@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+    "settings": {
+        "[markdown]": {
+            "editor.unicodeHighlight.ambiguousCharacters": false,
+            "editor.unicodeHighlight.invisibleCharacters": false,
+            "diffEditor.ignoreTrimWhitespace": false,
+            "editor.wordWrapColumn": 90,
+            "editor.wordWrap": "wordWrapColumn",
+            "editor.quickSuggestions": {
+                "comments": "off",
+                "strings": "off",
+                "other": "off"
+            },
+        }
+    }
+}

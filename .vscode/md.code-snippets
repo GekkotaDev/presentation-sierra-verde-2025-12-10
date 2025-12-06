@@ -1,0 +1,7 @@
+{
+    "Smart Quotes": {
+        "prefix": ["`"],
+        "body": "“$0”",
+        "scope": "markdown,md"
+    }
+}

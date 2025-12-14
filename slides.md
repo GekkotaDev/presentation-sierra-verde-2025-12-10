@@ -649,8 +649,7 @@ had significantly impacted the progression of our work.
 the experience and groundwork necessary for their thesis and/or future games,
 software, and other works.
 
-It is what is considered in **development hell** not helped by the battle over the rights
-to the game that had demoralized the team's motivation.
+This may be seen as an example of **development limbo**
 
 :: right ::
 

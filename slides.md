@@ -642,7 +642,8 @@ color: navy
 The scope of the game had originally been intended to be the groundwork for their
 respective theses with what is presented here being a major milestone
 
-It is unfortunate that things happen whether they were under our control or not.
+It is unfortunate that events out of our control and the aforementioned mishaps
+had significantly impacted the progression of our work.
 
 **Bitflip Softworks** hopes that nevertheless this sets their members up with
 the experience and groundwork necessary for their thesis and/or future games,

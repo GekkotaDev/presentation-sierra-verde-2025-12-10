@@ -5,7 +5,7 @@
   "scripts": {
     "build": "slidev build",
     "build:ci": "slidev build --base /slides/",
-    "dev": "slidev --open",
+    "dev": "slidev",
     "export": "slidev export"
   },
   "dependencies": {
@@ -13,6 +13,8 @@
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "@vueuse/core": "^14.1.0",
+    "slidev-addon-fancy-arrow": "^0.13.13",
+    "slidev-addon-rabbit": "^0.4.0",
     "slidev-theme-neversink": "^0.4.0",
     "vue": "^3.5.25"
   },

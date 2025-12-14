@@ -20,6 +20,12 @@ importers:
       '@vueuse/core':
         specifier: ^14.1.0
         version: 14.1.0(vue@3.5.25(typescript@5.9.3))
+      slidev-addon-fancy-arrow:
+        specifier: ^0.13.13
+        version: 0.13.13(typescript@5.9.3)
+      slidev-addon-rabbit:
+        specifier: ^0.4.0
+        version: 0.4.0
       slidev-theme-neversink:
         specifier: ^0.4.0
         version: 0.4.0(@nuxt/kit@3.20.1)(@vue/compiler-sfc@3.5.25)(markdown-it-async@2.2.0)(markdown-it@14.1.0)(postcss@8.5.6)(typescript@5.9.3)(vite@7.2.6(@types/node@22.19.1)(jiti@2.6.1)(yaml@2.8.2))(vue@3.5.25(typescript@5.9.3))
@@ -358,6 +364,9 @@ packages:
 
   '@iconify-json/carbon@1.2.15':
     resolution: {integrity: sha512-9tW0nZY5QtKkMhuYzW09BM1345SyXNuA+gx2ub0j/fnfHOD5XVimMJ/D76H3tTez25NJbPYCLIQoFhvJc1HVBQ==}
+
+  '@iconify-json/emojione-monotone@1.2.1':
+    resolution: {integrity: sha512-cZSNcPsuiAD6HCzCh/2dYKGh3pNI0jJlxBxQWfC33cQsPtqYZqulGBvlkThXYNvDl8VxgVHT9u+izyX/yeEIkA==}
 
   '@iconify-json/logos@1.2.10':
     resolution: {integrity: sha512-qxaXKJ6fu8jzTMPQdHtNxlfx6tBQ0jXRbHZIYy5Ilh8Lx9US9FsAdzZWUR8MXV8PnWTKGDFO4ZZee9VwerCyMA==}
@@ -2263,6 +2272,13 @@ packages:
   sisteransi@1.0.5:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
 
+  slidev-addon-fancy-arrow@0.13.13:
+    resolution: {integrity: sha512-hR18EuwsLHiZKxryG/OdaUJlT7W0O0V9SwRkt54cHpB1Gv8oekawV4EIlSft0ZiqgsAGIr+/ukDSDUY2de43MQ==}
+
+  slidev-addon-rabbit@0.4.0:
+    resolution: {integrity: sha512-IlawxwhJdE7uG4me/LRpQdHFgR4vRX65ORqQE9jzqLCot3s/xQ7X1nVA1JSBxkl010PQdPpuRxSUdPmG+2NTKg==}
+    engines: {node: '>=18.0.0', npm: '>=9.5.0'}
+
   slidev-theme-neversink@0.4.0:
     resolution: {integrity: sha512-j7QRMf0BcuiZlN7G6blAtDcoWgB7Wu5G92OAciu2aRxYrXCkYwW9ys810fABE4dYcx+tEZT2u0+2QhdJ6C4hvA==}
     engines: {node: '>=18.0.0', slidev: '>=52.1.0'}
@@ -2978,6 +2994,10 @@ snapshots:
   '@floating-ui/utils@0.2.10': {}
 
   '@iconify-json/carbon@1.2.15':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/emojione-monotone@1.2.1':
     dependencies:
       '@iconify/types': 2.0.0
 
@@ -5414,6 +5434,17 @@ snapshots:
       totalist: 3.0.1
 
   sisteransi@1.0.5: {}
+
+  slidev-addon-fancy-arrow@0.13.13(typescript@5.9.3):
+    dependencies:
+      roughjs: 4.6.6
+      vue: 3.5.25(typescript@5.9.3)
+    transitivePeerDependencies:
+      - typescript
+
+  slidev-addon-rabbit@0.4.0:
+    dependencies:
+      '@iconify-json/emojione-monotone': 1.2.1
 
   slidev-theme-neversink@0.4.0(@nuxt/kit@3.20.1)(@vue/compiler-sfc@3.5.25)(markdown-it-async@2.2.0)(markdown-it@14.1.0)(postcss@8.5.6)(typescript@5.9.3)(vite@7.2.6(@types/node@22.19.1)(jiti@2.6.1)(yaml@2.8.2))(vue@3.5.25(typescript@5.9.3)):
     dependencies:
